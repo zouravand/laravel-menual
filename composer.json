@@ -1,0 +1,47 @@
+{
+  "name": "tedon/laravel-menual",
+  "description": "A Brand Structural Menu for laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pouya Zouravand",
+      "email": "pouya.zuravand@gmail.com"
+    }
+  ],
+  "type": "library",
+  "keywords": [
+    "Laravel",
+    "Menu",
+    "LaravelMenu",
+    "Menual",
+    "LaravelMenual",
+    "Tedon"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "laravel/framework": "^9.19"
+  },
+  "require-dev": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tedon\\LaravelMenual\\MenualServiceProvider"
+      ],
+      "aliases": {
+        "Menual": "Tedon\\LaravelMenual\\Facades\\Menual"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Tedon\\LaravelMenual\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+  },
+  "minimum-stablity": "dev"
+}
