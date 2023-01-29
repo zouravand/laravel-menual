@@ -3,3 +3,4 @@ composer.lock
 /.fleet
 /.idea
 /.vscode
+/*.yaml
