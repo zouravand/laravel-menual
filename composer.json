@@ -18,10 +18,11 @@
     "Tedon"
   ],
   "require": {
-    "php": ">=8.0",
-    "laravel/framework": "^9.19"
+    "php": ">=8.0"
   },
   "require-dev": {
+    "orchestra/canvas": "^7.4",
+    "orchestra/testbench": "^7.16"
   },
   "extra": {
     "laravel": {
