@@ -9,6 +9,8 @@ class MenuItem extends Model
 {
     use HasFactory;
 
+    const VISIBILITY_VISIBLE = 1;
+    const VISIBILITY_HIDDEN = 0;
     protected $fillable = [
         'caption',
         'url',
