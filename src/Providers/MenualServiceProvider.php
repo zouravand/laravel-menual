@@ -26,7 +26,7 @@ class MenualServiceProvider extends ServiceProvider
             __DIR__.'/../lang' => $this->app->langPath('vendor/tedon')
         ], 'menual-lang');
 
-        AboutCommand::add('My Package', fn () => ['Version' => '1.0.0']);
+        AboutCommand::add('Laravel Menual', fn () => ['Version' => '0.0.1']);
     }
 
 }
